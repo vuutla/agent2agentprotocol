@@ -10,6 +10,7 @@ from typing import AsyncIterable, Union
 import asyncio
 import logging
 import traceback
+import types
 
 from common.types import (
     SendTaskRequest,
