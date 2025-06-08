@@ -28,7 +28,7 @@ else:
 memory = MemorySaver()
 
 @tool
-def get_weather(city: str = "New York") -> dict:
+def get_weather(city: str = "London") -> dict:
     """Returns a hardcoded weather report for a given city."""
     print(f"🌡️ Tool called: get_weather for city='{city}'")
     return {

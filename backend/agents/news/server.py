@@ -14,6 +14,7 @@ from pathlib import Path
 from common.server import A2AServer
 from common.types import AgentCard, AgentCapabilities, AgentSkill, MissingAPIKeyError
 from common.utils.push_notification_auth import PushNotificationSenderAuth
+from api.news_api import QueryAPI
 
 # 🧠 Local agent and task manager
 from agents.news.agent import NewsAgent
